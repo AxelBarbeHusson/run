@@ -4,13 +4,13 @@ cd /ect/xdg/openbox/
 sudo rm autostart.sh
 git clone 'https://github.com/AxelBarbeHusson/autostart.git'
 cd autostrat
-cp autostrat.sh /openbox
+sudo cp autostrat.sh /openbox
 cd ..
 rm autostart
 chmod +x autostart.sh
 git clone 'https://github.com/AxelBarbeHusson/environement.git'
 cd environment
-cp environment.sh /openbox
+sudo cp environment.sh /openbox
 cd ..
 rm environment
 chmod +x environment.sh
