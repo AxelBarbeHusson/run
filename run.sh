@@ -2,13 +2,13 @@ sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xini
 sudo apt-get install --no-install-recommends chromium-browser -y
 cd /ect/xdg/openbox/
 sudo rm autostart.sh
-git clone https://github.com/AxelBarbeHusson/autostart.git
+git clone 'https://github.com/AxelBarbeHusson/autostart.git'
 cd autostrat
 cp autostrat.sh /openbox
 cd ..
 rm autostart
 chmod +x autostart.sh
-git clone https://github.com/AxelBarbeHusson/environement.git
+git clone 'https://github.com/AxelBarbeHusson/environement.git'
 cd environment
 cp environment.sh /openbox
 cd ..
