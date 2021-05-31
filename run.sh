@@ -1,4 +1,4 @@
-sudo apt-get install unclutter -y
+sudo apt-get install unclutter
 sudo apt-get install xdotool -y
 touch kiosk.sh
 sudo echo "#!/bin/bash" >> kiosk.sh
@@ -32,4 +32,4 @@ sudo echo " " >> kiosk.service
 sudo echo "[Install]" >> kiosk.service
 sudo echo "WantedBy=graphical.target" >> kiosk.service
 sudo mv kiosk.service /lib/systemd/system
-sudo systemcl enable kiosk.service
+sudo systemctl enable kiosk.service
