@@ -6,7 +6,7 @@ xset -dpms
 
 unclutter -idle 1 -root &
 
-/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk http://www.meteofrance.com/accueil https://news.google.com/topstories?hl=fr&gl=FR&ceid=FR:fr &
+/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk http://www.qeenta.com
 
 while true; do
    xdotool keydown ctrl+Tab; xdotool keyup ctrl+Tab;
