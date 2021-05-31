@@ -1,5 +1,5 @@
 sudo apt-get install unclutter
-sudo apt-get install xdotool -y
+sudo apt-get install xdotool
 touch kiosk.sh
 sudo echo "#!/bin/bash" >> kiosk.sh
 sudo echo " " >> kiosk.sh
