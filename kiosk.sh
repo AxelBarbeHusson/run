@@ -6,7 +6,7 @@ xset -dpms
 
 unclutter -idle 1 -root &
 
-/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk http://www.qeenta.com
+/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk https://my-q2e.fr/assets/external/simulateur/
 
 while true; do
    xdotool keydown ctrl+Tab; xdotool keyup ctrl+Tab;
