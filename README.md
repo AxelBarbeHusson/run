@@ -31,7 +31,7 @@ sudo nano /etc/lightdm/lightdm.conf
 ctrl+w xserver-command=X
 </br>
 
- ->xserver-command=X -nocursor
+ -> xserver-command=X -nocursor
  </br>
 
 sudo nano /boot/config.txt
