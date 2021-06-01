@@ -40,7 +40,7 @@ sudo nano /boot/config.txt
 disable_overscan=1
 </br>
 
-change hdmi_mode=82
+change hdmi_mode=16
 </br>
 
 if can change framebuffer_depth -> (24 or 32(framebuffer_ignore_alpha=1))
