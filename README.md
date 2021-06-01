@@ -48,6 +48,8 @@ if can change framebuffer_depth -> (24 or 32(framebuffer_ignore_alpha=1))
 
 sudo systemctl enable kiosk.service
 </br>
+reboot
+</br>
 
 sudo systemctl start kiosk.service
 </br>
