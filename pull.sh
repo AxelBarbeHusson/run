@@ -1,4 +1,9 @@
+hours=`date + %H%M%`
+update='143500'
+
 for ((; ;))
 do
- sudo git pull
+ if($hours ==$update)
+ git pull
+ reboot
 done
