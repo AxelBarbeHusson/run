@@ -1,6 +1,6 @@
 hours=`date +%H%M%S`
 update='235959'
-for ((; ;))
+for (( ; ; ))
 do
    echo "It\'s not update"
    sleep 1
