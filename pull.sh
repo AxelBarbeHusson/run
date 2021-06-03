@@ -1,9 +1,7 @@
-hours=`date + %H%M%`
+hours=`date + %H%M%S`
 update='143500'
 
 for ((; ;))
 do
- if($hours ==$update)
- git pull
- reboot
+ echo $hours
 done
