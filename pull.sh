@@ -1,4 +1,4 @@
 for ((; ;))
 do
- echo "test"
+ sudo git pull
 done
