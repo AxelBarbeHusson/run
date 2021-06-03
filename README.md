@@ -15,8 +15,18 @@ cd run
 
 sudo mv kiosk.service /lib/systemd/system
 </br>
+touch /run/pull.php
+</br>
+in pull.php
+<?php
 
-sudo mv kiosk.sh /home/pi
+// Use in the “Post-Receive URLs” section of your GitHub repo.
+
+if ( $_POST['payload'] ) {
+shell_exec( ‘cd /home/pi/run && git reset –hard HEAD && git pull’ );
+}
+
+?>
 </br>
 
 cd ..
