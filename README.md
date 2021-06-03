@@ -15,7 +15,7 @@ cd run
 
 sudo mv kiosk.service /lib/systemd/system
 </br>
-touch /run/pull.php
+sudo touch pull.php
 </br>
 in pull.php
 
