@@ -15,19 +15,7 @@ cd run
 
 sudo mv kiosk.service /lib/systemd/system
 </br>
-sudo touch pull.php
-
-sudo nano pull.php
-</br>
-in pull.php
-
-
-// Use in the “Post-Receive URLs” section of your GitHub repo.
-
-if ( $_POST['payload'] ) {
-shell_exec( ‘cd /home/pi/run && git reset –hard HEAD && git pull’ );
-}
-
+chmod +x pull.sh
 </br>
 
 cd ..
@@ -65,3 +53,5 @@ reboot
 sudo systemctl start kiosk.service
 </br>
 
+/!\ Lancer le script sh uniquement quand tout est fait /!\
+./pull.sh
