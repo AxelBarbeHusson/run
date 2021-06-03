@@ -1,5 +1,4 @@
-hours=``date +%H%M%S`
 for ((; ;))
 do
- echo "$hours"
+ echo "test"
 done
