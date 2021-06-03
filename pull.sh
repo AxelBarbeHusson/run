@@ -1,5 +1,5 @@
 #!/bin/bash
-hours=`date + %H%M%S`
+hours=`date +%H%M%S`
 update='143500'
  
 for (( ; ; ))
