@@ -1,4 +1,5 @@
+hours=``date +%H%M%S`
 for ((; ;))
 do
- sudo git pull
+ echo "$hours"
 done
