@@ -15,8 +15,6 @@ cd run
 
 sudo mv kiosk.service /lib/systemd/system
 </br>
-chmod +x pull.sh
-</br>
 
 cd ..
 </br>
