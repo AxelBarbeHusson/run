@@ -50,6 +50,3 @@ reboot
 
 sudo systemctl start kiosk.service
 </br>
-
-/!\ Lancer le script sh uniquement quand tout est fait /!\
-./pull.sh
