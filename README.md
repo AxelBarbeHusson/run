@@ -43,6 +43,11 @@ change hdmi_mode=16
 if can change framebuffer_depth -> (24 or 32(framebuffer_ignore_alpha=1))
 </br>
 
+//mise en veille
+sudo nano /boot/cmdline.txt
+(ajouter a la fin -> consoleblank=0)
+check if consoleblank = 0 with cat /sys/module/kernel/parameters/consoleblank
+
 sudo systemctl enable kiosk.service
 </br>
 reboot
